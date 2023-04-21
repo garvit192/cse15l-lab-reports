@@ -1,7 +1,7 @@
 # Lab Report 1
 This report covers installation of Visual Studio Code, remotely connecting, and trying out commands. 
 ## Installling Visual Studio Code
-In order to install Visual Studio Code(VScode) I would normally have to go to the VScode website hosted at https://code.visualstudio.com/. However, since I had already installed VScode previously I skipped this step and proceeded onto remotely connecting. In order to download it I followed instructions stated on the website and downloaded the appropriate version for my laptop which was the Mac Universal Build.
+In order to install Visual Studio Code(VScode) I would normally have to go to the VScode website hosted [here](https://code.visualstudio.com/). However, since I had already installed VScode previously I skipped this step and proceeded onto remotely connecting. In order to download it I followed instructions stated on the website and downloaded the appropriate version for my laptop which was the Mac Universal Build.
 ![Image](VScodeSite.png)
 After following the steps and downloading it VScode should look like this
 ![Image](Vscode.png)
@@ -33,9 +33,9 @@ ssh cs15lsp23fl@ieng6-202.ucsd.edu
 
 ## Run Some Commands
 Having gained acess to the server I can now run commands on the system. I tried running a couple commands that gave me information on the directory I am in.
-![Image](Commands.png)
-My first two commands did not result in any output on the terminal as they change the directory I am in and this does not warrant an output. My third command
-```
-ls -lat
-```
-This gave the output as shown in the screenshot above.
+![Image](ls_a.png)
+The command I ran first was `ls -a`. This command returns all the files and directories in the current directory, including hidden files or directories.
+We can see files listed with a "." in front of their names. This "." acts as a marker to define a file or directory as hidden.
+![Image](ls.png)
+To verify that the files with "." really are hidden I ran just ` ls ` as this only returns files and directories that are not hidden in the current directory. This command gave me the output as above showing only "perl5" and "wavelet"  as they are the only non hidden directories.
+This gave the output as shown in the screenshot above. `ls -lat` list all the files and directories
