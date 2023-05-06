@@ -17,8 +17,9 @@ It is possible to combine using * with this method to look through directories w
 garvitagarwal@Garvits-MacBook-Pro stringsearch-data-main % find technical/* technical/government/* -name "chapter-1.txt"
 technical/911report/chapter-1.txt
 ```
+Source [here](https://linuxhandbook.com/find-command-examples/#search-for-files-in-multiple-directories)
 
-## Finding files based on files
+## Finding files based on file size
 It is possible to use the `-size` option to get files based on their size. We can modify it by using + and - to set the file size to be greater than or less than the number mentioned
 
 For example if I need files whose size is greater than 100KB from technical/government/Env_Prot_Agen I can do the following
@@ -35,7 +36,7 @@ It is also possible to find the file size in a particular range like 100KB to 15
 garvitagarwal@Garvits-MacBook-Pro stringsearch-data-main % find technical/government/Env_Prot_Agen -size +100k -size -150k
 technical/government/Env_Prot_Agen/ctm4-10.txt
 ```
-
+Source [here](https://linuxhandbook.com/find-command-examples/#find-big-files-or-small-search-based-on-file-size)
 ## Finding files based on time of last acess
 The `-amin` option can be used to find files based on a specific access time. It can give us files that were accessed based on the time elapsed since they were last opened.
 
@@ -67,7 +68,7 @@ technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
 technical/government/Env_Prot_Agen/ro_clear_skies_book.txt
 technical/government/Env_Prot_Agen/ctm4-10.txt
 ```
-
+Source [here](https://linuxhandbook.com/find-command-examples/#find-recently-modified-files-search-based-on-modify-or-creation-time)
 ## Excluding a directory from 
 While finding files it might be useful to skip over a few directories since they are too large or it is known that the file is not in that directory. By using the `! -path` option we can do that.
 
@@ -88,3 +89,4 @@ It is also possible to exclude multiple directories with this
 garvitagarwal@Garvits-MacBook-Pro stringsearch-data-main % find ./* -name "bill.txt" ! -path technical/government/Env-Prot-Agen/* ! -path technical/plos/*
 zsh: no matches found: technical/government/Env-Prot-Agen/*
 ```
+Source [here](https://www.crybit.com/exclude-directories/#:~:text=.%2Fcry%2Ffindme-,Method%201%20%3A%20Using%20the%20option%20%E2%80%9C%2Dprune%20%2Do%E2%80%9D,print%E2%80%9D%20switches%20with%20find%20command.&text=The%20directory%20%E2%80%9Cbit%E2%80%9D%20will%20be%20excluded%20from%20the%20find%20search!)
