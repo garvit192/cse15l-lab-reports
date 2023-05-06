@@ -101,12 +101,12 @@ public class Server {
 ```
 Most of the code for StringServer.java is the same as that of NumberServer.java, and the code of Server.java remains unchanged.
 This code when run looks like this on a browser
-![Image](ServerOut1.png)
+![Image](Lab_2_img/ServerOut1.png)
 The methods called by the URL `localhost:3467/add-message?s=How are you` calls the handleRequest method in StringServer.java. The only argument it takes is "url" which is of type "URI". When this is called it creates a new String[] which contains the query in the URL after splitting it in two parts where the first part is the command and the second part is the string to be added. This changes the global variable str from "Hello" to "Hello \n How are you". 
-![Image](ServerOut2.png)
+![Image](Lab_2_img/ServerOut2.png)
 The methods called by the URL `localhost:3467/add-message?s=Are you good` calls the same method as the URL `localhost:3467/add-message?s=How are you` as discussed above, that is it calls handleRequest in StringServer.java. Like before the only variable being updated is the global variable str which changes from "Hello \n How are you" to ""Hello \n How are you \n Are you good"
 All the URL calls are recorded in the terminal which look like this
-![Image](ServerRunning.png)
+![Image](Lab_2_img/ServerRunning.png)
 
 ## Part 2
 The bug I chose is from ListExamples.java. In the code the method filter does not operate correctly all the time. One such instance is 
@@ -144,7 +144,7 @@ However, despite the buggy code the method returns the correct output on some in
 ```
 
 **Symptom**
-![Image](TestingCode.png)
+![Image](Lab_2_img/TestingCode.png)
 It appears that the output of the filter is in reverse order than what the output should be. 
 
 **Fix**
