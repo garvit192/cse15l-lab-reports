@@ -33,14 +33,14 @@ ssh cs15lsp23fl@ieng6-202.ucsd.edu
 
 ## Run Some Commands
 Having gained acess to the server I can now run commands on the system. I tried running a couple commands that gave me information on the directory I am in.
-![Image](https://github.com/garvit192/CSE15L-LabReport1/blob/main/ls_a.png)
+![Image](Lab_1_img/ls_a.png)
 The command I ran first was `ls -a`. This command returns all the files and directories in the current directory, including hidden files or directories.
 We can see files listed with a "." in front of their names. This "." acts as a marker to define a file or directory as hidden.
-![Image](https://github.com/garvit192/CSE15L-LabReport1/blob/main/ls.png)
+![Image](Lab_1_img/ls.png)
 To verify that the files with "." really are hidden I ran just ` ls ` as this only returns files and directories that are not hidden in the current directory. This command gave me the output as above showing only "perl5" and "wavelet"  as they are the only non hidden directories.
 
 Now I tried to change my directory by oving into the wavelet folder. In order to do that I used the command `cd ~/wavelet`. Now I was in the wavelet directory and the terminal changed to reflect that
-![Image](https://github.com/garvit192/CSE15L-LabReport1/blob/main/cd_wavlet.png)
+![Image](Lab_1_img/cd_wavlet.png)
 The portion highlighted shows that I am now in the wavelet directory.
-![Image](https://github.com/garvit192/CSE15L-LabReport1/blob/main/ls_lat.png)
+![Image](Lab_1_img/ls_lat.png)
 Now I maved back to the parent directory by using the command `cd ~` and ran my final command `ls -lat`. This command like `ls -a` listed out all the files and directories in my current directory including hidden ones; however, it also provided more information like date and time along with the user information.
