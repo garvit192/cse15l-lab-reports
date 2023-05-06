@@ -2,9 +2,9 @@
 This report covers installation of Visual Studio Code, remotely connecting, and trying out commands. 
 ## Installling Visual Studio Code
 In order to install Visual Studio Code(VScode) I would normally have to go to the VScode website hosted [here](https://code.visualstudio.com/). However, since I had already installed VScode previously I skipped this step and proceeded onto remotely connecting. In order to download it I followed instructions stated on the website and downloaded the appropriate version for my laptop which was the Mac Universal Build.
-![Image](VScodeSite.png)
+![Image](Lab_1_img/VScodeSite.png)
 After following the steps and downloading it VScode should look like this
-![Image](Vscode.png)
+![Image](Lab_1_img/Vscode.png)
 ## Remotely Connecting
 In order to begin Remotely Connecting I first had to find out my course specific account and reset my password. After doing that I could begin attempting to try to remotely connect to the ieng6 server. I start by running an ssh command on the terminal 
 ```
@@ -18,7 +18,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 I respong yes to this after which I am prompted to input a password after which I gain acess to the server.
 This looks like this on the terminal
-![Image](RemoteCon.png)
+![Image](Lab_1_img/RemoteCon.png)
 I faced some difficulties connecting to the server wherein I would get a message on my terminal after inputing my password
 ```
 garvitagarwal@Garvits-MacBook-Pro ~ % ssh cs15lsp23fl@ieng6.ucsd.edu 
