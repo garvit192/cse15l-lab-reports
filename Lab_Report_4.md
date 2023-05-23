@@ -17,7 +17,7 @@ enter the command `git clone https://github.com/ucsd-cse15l-s23/lab7` and `<retu
 
 ![Image](Lab_4_img/Test1.png)
 
-In order to run the tests first move into the lab7 directory. Use the `cs lab7` and press `<return>` to move there. Then enter `bash t<tab>` which autocompletes to `bash test.sh` and press `<return>` which will run the Junit tests which fail.
+In order to run the tests first move into the lab7 directory. Use the `cd lab7` and press `<return>` to move there. Then enter `bash t<tab>` which autocompletes to `bash test.sh` and press `<return>` which will run the Junit tests which fail.
 
 ## Step 7
 
