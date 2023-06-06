@@ -8,3 +8,5 @@ This webpage contains all my CSE15L lab Reports
 [Lab Report 3](https://garvit192.github.io/cse15l-lab-reports/Lab_Report_3)
 
 [Lab Report 4](https://garvit192.github.io/cse15l-lab-reports/Lab_Report_4)
+
+[Lab Report 5](https://garvit192.github.io/cse15l-lab-reports/Lab_Report_5)
