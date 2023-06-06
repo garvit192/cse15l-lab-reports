@@ -4,27 +4,34 @@ This lab covers a fictional debugging scenario between a student a a tutor, and 
 ## Part 1
 
 *Incorrect code*
+
 ![image](Lab_5_img/Incorrect_code.png)
 ![image](Lab_5_img/Incorrect_Output.png)
 
-*Student posts a bug,**
+*Student posts a bug,*
+
 ![Image](Lab_5_img/Edstem_post_1.png)
 ![Image](Lab_5_img/Edstem_post_2.png)
 ![Image](Lab_5_img/Edstem_post_3.png)
 
 *Response from Tutor*
+
 ![Image](Lab_5_img/TA_Response_1.png)
 
 *Reply from Student*
+
 ![Image](lab_5_img/Student_response.png)
 
 *Reply from Tutor*
+
 ![Image](Lab_5_img/Ta_Response_2.png)
 
 *Reply from Stduent*
+
 ![Image](Lab_5_img/Student_response_2.png)
 
 *Correct Implementation*
+
 ![Image](Lab_5_img/Correct_Implementation.png)
 
 ## Part 2
