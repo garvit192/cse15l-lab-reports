@@ -20,7 +20,7 @@ This lab covers a fictional debugging scenario between a student a a tutor, and 
 
 *Reply from Student*
 
-![Image](lab_5_img/Student_response.png)
+![Image](Lab_5_img/Student_response.png)
 
 *Reply from Tutor*
 
